@@ -67,7 +67,7 @@ body{
 
 .home-content h1{
     position: relative;
-    font-size: 50px;
+    font-size: 52px;
     font-weight: 700;
     line-height: 1.2;
 }
@@ -250,6 +250,15 @@ body{
 .home-sci a:hover::before{
     width: 100%;
 }
+/* .Copyright {
+    width: 50%;
+    background-color: transparent;
+    display: flex;
+    padding: 10px 0;
+    font-weight: 200;
+    text-align: auto;
+    margin-top: auto;
+} */
 
 /* .home-imgHover{
     position: absolute;
@@ -270,5 +279,18 @@ body{
 @keyframes showRight {
     100%{
         width: 0;
+    }
+}
+
+
+@media only screen and(max-width:600px){
+    .home{background-image:url(phone.jpg) ;
+    }
+    .home-content{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .home-content h1{
+        font: 30px;
     }
 }
